@@ -18,8 +18,6 @@ class Quote extends Component{
     return(
       <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 generic">
         <div className="card no-border" >
-          <div className="header-bg">
-          </div>
           <div className="avatar">
             {!this.state.author && <img src={quote.profile_picture} alt={quote.display_name}/>}
             {this.state.author &&  <img src={this.state.author.profile_picture} alt={this.state.author.display_name}/>}
