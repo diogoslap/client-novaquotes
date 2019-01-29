@@ -1,68 +1,116 @@
 body{
-  background:#523aff;
+    background:#523aff;
 }
+
 .wrapper{
-  padding-top:30px;
-  font-family: 'Raleway', sans-serif;
+    padding-top:30px;
+    padding-left:0;
+    font-family: 'Raleway', sans-serif;
+}
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 740px;
+  }
+  .wrapper-column{
+    max-width: 740px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 920px;
+  }
+  .wrapper-column{
+    max-width: 920px;
+  }
+}
+
+@media (min-width: 992px){
+  .wrapper {
+    max-width: 1160px;
+  }
+  .wrapper-column{
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1440px;
+  }
+  .wrapper-column{
+    max-width: 1440px;
+  }
 }
 
 .generic{
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .no-border{
-  border:0;
+    border:0;
+}
+
+.navbar-brand.logo{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card-text.capitalize{
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 1.4em;
+  text-align: left;
 }
 
 .capitalize:first-letter {
-text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 .btn.btn-primary-tics{
-background:#1f6bff;
-color:#e8e8e9;
+  background:#1f6bff;
+  color:#e8e8e9;
 }
 
 .card {
-overflow: hidden;
-position: relative;
-border: 1px solid #CCC;
-border-radius: 8px;
-text-align: center;
-padding: 0;
-background-color: #e8e8e9;
-color: #35383c;
-min-height: 300px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #e8e8e9;
+  color: #35383c;
+  min-height: 300px;
+}
+.card .card-body{
+  padding-top: 10px;
 }
 
 .card .avatar {
-position: relative;
-margin-top: 15px;
-z-index: 100;
-}
-
-.card .card-footer{
-min-height: 50px;
-}
-
-.card .name{
-color:#35383c;
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
 }
 
 .card .avatar img {
-width: 100px;
-height: 100px;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-border: 3px solid rgba(0,0,30,0.8);
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid rgba(0,0,30,0.8);
 }
 
-.card .header-bg {  
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 70px;
-background-color: aliceblue;
-border-bottom: 1px #FFF solid; 
+.card .card-footer{
+  padding-top:14px;
+  min-height: 50px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #484848;
+}
+.card .card-text.font-weight-bold.name{
+  margin-bottom: 35px;
+}
+.card .name{
+  color:#35383c;
 }

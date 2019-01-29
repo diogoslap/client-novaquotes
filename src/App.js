@@ -12,7 +12,6 @@ class App extends Component {
       this.setState({
         quotes:[...this.state.quotes,...res.data.data]
       })
-      console.log(this.state.quotes)
     })
   }
 
@@ -20,11 +19,11 @@ class App extends Component {
     return (
       <div>
         <nav className='navbar navbar-expand-lg navbar-dark bg-dark mb-3'>
-          <div className='container'>
-              <a href='/' className='navbar-brand'>Nova Quotes</a>
+          <div className='container wrapper-column'>
+              <a href='/' className='navbar-brand logo'>#NovaQuotes</a>
           </div>
         </nav>
-        <div className="container">
+        <div className="container wrapper">
           <div className="container-fluid">
             <Quotes             
               loadQuotes={this.loadQuotes}  

@@ -24,7 +24,7 @@ class Quotes extends Component{
 
   showButton = () =>{
     const {quotes} = this.props
-    let total = this.state.limit * this.state.page+1
+    let total = this.state.limit * (this.state.page+1)
     if(quotes.length < total){
       this.setState({
         showButton:false
@@ -42,7 +42,7 @@ class Quotes extends Component{
       <div className="row">        
         {quotes.map((quote) => <Quote key={quote.id} quote={quote}/>)}
         <div className="col text-center">
-          {this.state.showButton && <button className="btn btn-primary" onClick={this.loadMore}>Ver mais</button>}
+          {this.state.showButton && <button className="btn btn-primary-tics" onClick={this.loadMore}>Ver mais</button>}
         </div>
       </div>
     )
