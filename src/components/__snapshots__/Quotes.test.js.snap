@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Quotes /> Should render Quotes 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Quotes
+    loadQuotes={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "limit": 8,
+              "page": 0,
+              "showButton": true,
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    quotes={
+      Array [
+        Object {
+          "created_date": 2019-01-01T00:00:00.000Z,
+          "display_name": "Teste User",
+          "id": "22",
+          "message": "Teste",
+          "username": "teste",
+        },
+        Object {
+          "created_date": 2019-01-02T00:00:00.000Z,
+          "display_name": "Teste User 2",
+          "id": "21",
+          "message": "Teste 2",
+          "username": "teste",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <Quote
+            quote={
+              Object {
+                "created_date": 2019-01-01T00:00:00.000Z,
+                "display_name": "Teste User",
+                "id": "22",
+                "message": "Teste",
+                "username": "teste",
+              }
+            }
+          />,
+          <Quote
+            quote={
+              Object {
+                "created_date": 2019-01-02T00:00:00.000Z,
+                "display_name": "Teste User 2",
+                "id": "21",
+                "message": "Teste 2",
+                "username": "teste",
+              }
+            }
+          />,
+        ],
+        <div
+          className="col text-center"
+        >
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Ver mais
+          </button>
+        </div>,
+      ],
+      "className": "row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "22",
+        "nodeType": "class",
+        "props": Object {
+          "quote": Object {
+            "created_date": 2019-01-01T00:00:00.000Z,
+            "display_name": "Teste User",
+            "id": "22",
+            "message": "Teste",
+            "username": "teste",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "21",
+        "nodeType": "class",
+        "props": Object {
+          "quote": Object {
+            "created_date": 2019-01-02T00:00:00.000Z,
+            "display_name": "Teste User 2",
+            "id": "21",
+            "message": "Teste 2",
+            "username": "teste",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="btn btn-primary"
+            onClick={[Function]}
+          >
+            Ver mais
+          </button>,
+          "className": "col text-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ver mais",
+            "className": "btn btn-primary",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Ver mais",
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <Quote
+              quote={
+                Object {
+                  "created_date": 2019-01-01T00:00:00.000Z,
+                  "display_name": "Teste User",
+                  "id": "22",
+                  "message": "Teste",
+                  "username": "teste",
+                }
+              }
+            />,
+            <Quote
+              quote={
+                Object {
+                  "created_date": 2019-01-02T00:00:00.000Z,
+                  "display_name": "Teste User 2",
+                  "id": "21",
+                  "message": "Teste 2",
+                  "username": "teste",
+                }
+              }
+            />,
+          ],
+          <div
+            className="col text-center"
+          >
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              Ver mais
+            </button>
+          </div>,
+        ],
+        "className": "row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "22",
+          "nodeType": "class",
+          "props": Object {
+            "quote": Object {
+              "created_date": 2019-01-01T00:00:00.000Z,
+              "display_name": "Teste User",
+              "id": "22",
+              "message": "Teste",
+              "username": "teste",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "21",
+          "nodeType": "class",
+          "props": Object {
+            "quote": Object {
+              "created_date": 2019-01-02T00:00:00.000Z,
+              "display_name": "Teste User 2",
+              "id": "21",
+              "message": "Teste 2",
+              "username": "teste",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="btn btn-primary"
+              onClick={[Function]}
+            >
+              Ver mais
+            </button>,
+            "className": "col text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Ver mais",
+              "className": "btn btn-primary",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Ver mais",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
