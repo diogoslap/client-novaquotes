@@ -1,3 +1,7 @@
+## Important thing.
+
+Change the baseUrl in src/Api.js to your API nova quotes.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
